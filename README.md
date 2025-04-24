@@ -1,2 +1,5 @@
 # svelte3-tutorial
-tutorial from https://github.com/PacktPublishing/Svelte-3-Up-and-Running
+
+Run backend service with docker:
+
+> docker run --rm -p 4343:4343 -v ~/data:/data italypaleale/sveltebook
