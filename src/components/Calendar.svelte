@@ -15,7 +15,7 @@
   $: {
     if (selected.getTime() != lastDate) {
       lastDate = selected.getTime();
-      date = lastDate;
+      date = lastDate / 1000;
     }
   }
 </script>
