@@ -1,7 +1,10 @@
 <script>
   import Obj from "./Obj.svelte";
+  import { fade } from "svelte/transition";
 
   export let objectId = null;
 </script>
 
-<Obj {objectId} />
+<div in:fade>
+  <Obj {objectId} />
+</div>
